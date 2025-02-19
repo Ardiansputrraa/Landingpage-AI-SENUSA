@@ -45,7 +45,8 @@ const HeroContent = () => {
         >
           <span className="text-3xl md:text-6xl lg:text-6xl">
             <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-cyan-500">
-              {`Empowering Indonesia's Future with Smart`}
+              {" "}
+              Empowering Indonesia&apos;s Future with Smart {" "}
             </span>
             Assessment Technology
           </span>

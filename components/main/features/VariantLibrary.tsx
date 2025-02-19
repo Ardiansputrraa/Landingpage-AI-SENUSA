@@ -21,15 +21,14 @@ const VariantLibrary = () => {
         animate={inView ? "visible" : "hidden"}
       >
         <h2 className="text-2xl md:text-5xl font-bold text-gray-400 mb-4">
-          Real-Time Notification Patient Emergency
+          Variant Query
         </h2>
         <p className="text-gray-500 text-lg">
-          The system monitors patient vital signs in real-time and automatically
-          sends alerts to medical personnel if significant changes indicate a
-          critical condition, such as a sudden drop in blood pressure or an
-          increased heart rate beyond normal limits. These notifications allow
-          medical personnel to respond quickly, improving the patient&apos;s
-          chances of survival.
+          The Variant Library serves as a centralized repository for managing
+          and accessing curated genetic variant data. It streamlines
+          organization, retrieval, and comparison of analyzed variants,
+          enhancing genomic research and clinical decision-making with accuracy
+          and consistency.
         </p>
       </motion.div>
 
