@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { zoomIn, zoomOut } from "@/utils/motion";
-import Image from 'next/image';
+import Image from "next/image";
 
 const VariantLibrary = () => {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
@@ -24,11 +24,11 @@ const VariantLibrary = () => {
           Real-Time Notification Patient Emergency
         </h2>
         <p className="text-gray-500 text-lg">
-          The system monitors patient vital signs in real-time and
-          automatically sends alerts to medical personnel if significant changes
-          indicate a critical condition, such as a sudden drop in blood pressure
-          or an increased heart rate beyond normal limits. These notifications
-          allow medical personnel to respond quickly, improving the patient's
+          The system monitors patient vital signs in real-time and automatically
+          sends alerts to medical personnel if significant changes indicate a
+          critical condition, such as a sudden drop in blood pressure or an
+          increased heart rate beyond normal limits. These notifications allow
+          medical personnel to respond quickly, improving the patient&apos;s
           chances of survival.
         </p>
       </motion.div>
