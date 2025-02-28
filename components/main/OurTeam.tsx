@@ -11,15 +11,16 @@ import Image from 'next/image';
 const teamMembers = [
   { name: "Chandra Prasetyo Utomo", role: "Department of Informatics Universitas YARSI", img: "/chandra.jpg" },
   { name: "Fani Muh Ardian Saputra", role: "Frontend Developer", img: "/Ardian.jpg" },
-  { name: "Nashuha Insani", role: "Department of Informatics", img: "/nasuha.jpg" },
-  { name: "Puspa Setia Pratiwi", role: "Department of Informatics", img: "/profile.jpeg" },
-  { name: "Muhamad Fathurahman", role: "Department of Informatics", img: "/profile.jpeg" },
+  { name: "Nashuha Insani", role: "Department of Informatics Universitas YARSI", img: "/nasuha.jpg" },
+  { name: "Puspa Setia Pratiwi", role: "Department of Informatics Universitas YARSI", img: "/profile.jpeg" },
+  { name: "Muhammad Fathurrachman", role: "Department of Informatics Universitas YARSI", img: "/profile.jpeg" },
   { name: "Ahmad Rusdan Utomo", role: "Department of Informatics", img: "/profile.jpeg" },
   { name: "Achmad Dimas Cahyaning Furqon", role: "Department of Informatics", img: "/profile.jpeg" },
   { name: "Aldo Al Deanov", role: "Department of Informatics", img: "/profile.jpeg" },
   { name: "Sarah Adinda Puteri", role: "Department of Informatics", img: "/profile.jpeg" },
   { name: "Tyas Ikhsan Hikmawan", role: "Department of Informatics", img: "/profile.jpeg" },
-  { name: "Ummi Azizah Rachmawati", role: "Department of Informatics Universitas YARSI", img: "/ummi.jpg" },
+  { name: "Zahra Nadhifah", role: "Department of Informatics Universitas YARSI", img: "/zahra.png" },
+  { name: "Susi Susilawati", role: "Department of Informatics Universitas YARSI", img: "/susi.jpg" },
 ];
 
 const OurTeam = () => {
