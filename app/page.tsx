@@ -3,7 +3,7 @@ import About from "@/components/main/About";
 import OurTeam from "@/components/main/OurTeam";
 import ManagePatients from "@/components/main/features/ManagePatients";
 import Report from "@/components/main/features/Report";
-import VariantLibrary from "@/components/main/features/VariantLibrary";
+import VariantQuery from "@/components/main/features/VariantQuery";
 import Acknowledgment from "@/components/main/Acknowledgment";
 import Publications from "@/components/main/Publications";
 import Model from "@/components/main/Model";
@@ -32,7 +32,7 @@ export default function Home() {
         <div id="Features">
         <ManagePatients />
         <Report />
-        <VariantLibrary />
+        <VariantQuery />
         </div>
         <div id="Acknowledgment">
         <Acknowledgment />

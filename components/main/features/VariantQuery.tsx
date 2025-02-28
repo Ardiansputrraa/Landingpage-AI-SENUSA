@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { zoomIn, zoomOut } from "@/utils/motion";
 import Image from "next/image";
 
-const VariantLibrary = () => {
+const VariantQuery = () => {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
 
   return (
@@ -39,13 +39,13 @@ const VariantLibrary = () => {
         animate={inView ? "visible" : "hidden"}
       >
         <Image
-          src="VariantLibrary.png"
+          src="VariantQuery.png"
           className="w-[450px] h-[450px] md:w-[500px] md:h-[500px] object-cover ml-auto"
-          alt="Feature Variant Library"
+          alt="Feature Variant Query"
         />
       </motion.div>
     </div>
   );
 };
 
-export default VariantLibrary;
+export default VariantQuery;

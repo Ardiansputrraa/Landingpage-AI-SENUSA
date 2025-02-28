@@ -23,9 +23,9 @@ const Acknowledgment = () => {
           Acknowledgment
         </h2>
         <p className="text-gray-500 text-lg mt-4">
-          This project is partially funded by PT Pandu Bioinformatika. We
-          appreciate the support and contribution from both parties in making
-          this project possible.
+          This research project is funded by PT Biogenome Total Solusi and
+          Universitas YARSI, with project Grant Number 023/SK/BTSS/I/24 and
+          0001/FTI/PKS HK.20/II/2024.
         </p>
       </motion.div>
 
