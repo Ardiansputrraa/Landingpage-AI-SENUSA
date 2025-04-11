@@ -92,7 +92,7 @@ const Navbar = () => {
               href={`#${item}`}
               className={`text-lg transition-all px-4 py-2 ${
                 activeSection === item
-                  ? 'bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-bold rounded-full' 
+                  ? 'bg-gradient-to-r from-teal-500 to-cyan-500 text-white font-bold rounded-full' 
                   : 'text-gray-400 hover:text-white after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-cyan-500 after:transition-all after:duration-300 hover:after:w-full'
               }`}
               onClick={() => setIsOpen(false)}

@@ -39,7 +39,7 @@ const ManagePatients = () => {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
       >
-        <Image
+        <img
           src="ManagePatients.png"
           className="w-[450px] h-[450px] md:w-[500px] md:h-[500px] object-cover ml-auto"
           alt="Features Manage Patient"

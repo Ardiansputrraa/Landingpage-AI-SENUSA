@@ -22,10 +22,9 @@ const About = () => {
   }, [inView]);
 
   return (
-    <div className="relative flex items-center justify-center min-h-screen w-full h-full px-4 md:px-8 lg:px-16">
-      {/* Container with Border & Gradient Shadow */}
+    <div className="relative flex items-center justify-center min-h-screen w-full h-full px-4 sm:px-6 md:px-8 lg:px-16">
       <div 
-        className="relative z-20 flex flex-col items-center justify-center w-full h-auto p-8 
+        className="relative z-20 flex flex-col items-center justify-center w-full h-auto p-6 sm:p-8 
            shadow-teal-500/50 before:absolute before:inset-0 before:bg-gradient-to-r from-teal-500 to-cyan-500 before:blur-xl before:opacity-20"
       >
         <motion.div
@@ -35,8 +34,8 @@ const About = () => {
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center justify-center w-full text-center"
         >
-          <div className="max-w-4xl mx-auto flex flex-col gap-5 justify-center items-center">
-            <motion.div className="font-bold text-3xl md:text-3xl lg:text-4xl">
+          <div className="max-w-full sm:max-w-3xl md:max-w-4xl mx-auto flex flex-col gap-5 justify-center items-center">
+            <motion.div className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-cyan-500">
                 {startTyping && (
                   <Typewriter

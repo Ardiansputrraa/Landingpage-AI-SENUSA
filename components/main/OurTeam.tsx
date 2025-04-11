@@ -60,7 +60,7 @@ const OurTeam = () => {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
                   <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-gray-600">
-                    <Image src={member.img} alt={member.name} className="w-full h-full object-cover" />
+                    <img src={member.img} alt={member.name} className="w-full h-full object-cover" />
                   </div>
                   <h3 className="text-base sm:text-lg md:text-xl font-semibold text-gray-400 mt-2">
                     {member.name}

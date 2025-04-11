@@ -65,7 +65,7 @@ const HeroContent = () => {
           variants={slideInFromBottom}
           animate={inView ? "visible" : "hidden"}
           transition={{ duration: 0.8 }}
-          href="https://senusa-ui-ux.d34tcaokrv7yp0.amplifyapp.com/features/login"
+          href="https://senusa-ui-ux.d34tcaokrv7yp0.amplifyapp.com/auth/login"
           target="_blank"
           rel="noopener noreferrer"
         >

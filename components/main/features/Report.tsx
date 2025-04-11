@@ -20,7 +20,7 @@ const Report = () => {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
       >
-        <Image
+        <img
           src="Report.png"
           className="w-[450px] h-[450px] md:w-[500px] md:h-[500px] object-cover mr-auto"
           alt="Features Variant Report"

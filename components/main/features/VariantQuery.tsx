@@ -38,7 +38,7 @@ const VariantQuery = () => {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
       >
-        <Image
+        <img
           src="VariantQuery.png"
           className="w-[450px] h-[450px] md:w-[500px] md:h-[500px] object-cover ml-auto"
           alt="Feature Variant Query"
